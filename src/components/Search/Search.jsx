@@ -42,7 +42,7 @@ export const Search = () => {
   //console.log(searchTerm);
   return (
     <div className="search_box">
-      <h3 className="search_title">🔎 영화 검색</h3>
+      <h2 className="search_title">🔎 영화 검색</h2>
       <input
         className="search"
         value={searchTerm}
