@@ -14,10 +14,7 @@ export const Footer = () => {
         </a>
       </div>
       <div className="footer_text">
-        <a
-          target="_blank"
-          href="https://github.com/KaengEE/React-Vite-MovieApp"
-        >
+        <a target="_blank" href="https://github.com/KaengEE/React-movieapp2">
           Git Hub
         </a>
       </div>
