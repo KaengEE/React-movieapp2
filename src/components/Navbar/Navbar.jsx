@@ -6,6 +6,7 @@ import Star from "../../assets/glowing-star.png";
 import Party from "../../assets/partying-face.png";
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 //rfc 단축키
 export default function Navbar() {
@@ -15,18 +16,18 @@ export default function Navbar() {
 
       <div className="navbar_links">
         <DarkMode />
-        <a href="#popular">
+        <Link to="/">
           <img className="navbar_emoji" src={Fire} alt="fire emoji" />
           인기순
-        </a>
-        <a href="#top_rated">
+        </Link>
+        <Link to="/top_rated">
           <img className="navbar_emoji" src={Star} alt="star emoji" />
           평점순
-        </a>
-        <a href="#upcoming">
+        </Link>
+        <Link to="/upcoming">
           <img className="navbar_emoji" src={Party} alt="party emoji" />
           최신순
-        </a>
+        </Link>
       </div>
     </nav>
   );
