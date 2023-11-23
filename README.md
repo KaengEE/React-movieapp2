@@ -4,7 +4,7 @@ React 영화앱 버전2
 
 영화앱의 업그레이드 버전
 
-<a href="https://github.com/KaengEE/React-Vite-MovieApp">버전1</a>
+<a href="https://github.com/KaengEE/React-Vite-MovieApp" target="_blank">버전1</a>
 
 <hr>
 
@@ -30,4 +30,4 @@ React 영화앱 버전2
 
 ## 배포사이트
 
-<a href="https://react-movie2-kaenghee.netlify.app/">MovieApp(ver2)</a>
+<a href="https://react-movie2-kaenghee.netlify.app/" target="_blank">MovieApp(ver2)</a>
