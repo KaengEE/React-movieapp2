@@ -1,0 +1,36 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.navbar > h1 {
+  font-size: 30px;
+  color: var(--heading_color);
+  /* text그림자 */
+  text-shadow: 1px 1px 15px yellow;
+}
+
+.navbar_links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar_links > a {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--body_color);
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+.navbar_emoji {
+  width: 25px;
+  height: 25px;
+  margin-right: 7px;
+}

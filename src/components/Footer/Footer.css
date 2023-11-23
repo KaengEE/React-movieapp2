@@ -1,0 +1,28 @@
+.footer {
+  width: auto;
+  height: 150px;
+  border-top: 1px solid hsla(0, 0%, 90%, 0.561);
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: small;
+}
+
+.footer_text {
+  margin: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: var(--body_color);
+}
+
+.footer_text a {
+  color: var(--body_color);
+  padding-left: 5px;
+}
+
+.footer_text p {
+  color: var(--body_color);
+  padding-left: 5px;
+  font-style: italic;
+  font-size: smaller;
+}
