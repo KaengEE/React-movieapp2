@@ -6,7 +6,11 @@
   border-bottom: 1px solid #e6e6e6;
 }
 
-.navbar > h1 {
+.link {
+  text-decoration: none;
+}
+
+.main_title {
   font-size: 30px;
   color: var(--heading_color);
   /* text그림자 */

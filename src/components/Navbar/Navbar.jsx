@@ -6,13 +6,15 @@ import Star from "../../assets/glowing-star.png";
 import Party from "../../assets/partying-face.png";
 
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 //rfc 단축키
 export default function Navbar() {
   return (
     <nav className="navbar">
-      <h1>MovieApp</h1>
+      <Link to="/" className="link">
+        <h1 className="main_title">MovieApp</h1>
+      </Link>
 
       <div className="navbar_links">
         <DarkMode />
