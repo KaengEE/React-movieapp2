@@ -54,7 +54,7 @@ export default function MovieList({ type, title, emoji }) {
 
   useEffect(() => {
     fetchMovies();
-  }, []);
+  }, [type]);
 
   return (
     <section className="movie_list" id={`${type}`}>
