@@ -28,6 +28,7 @@ export default function Navbar() {
           <img className="navbar_emoji" src={Party} alt="party emoji" />
           최신순
         </NavLink>
+        <NavLink to="/search">🔎영화검색</NavLink>
       </div>
     </nav>
   );

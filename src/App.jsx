@@ -13,10 +13,10 @@ function App() {
   return (
     <div className="app">
       <Navbar />
-      {/* 검색 */}
-      <Search />
 
       <Routes>
+        {/* 검색 */}
+        <Route path="/search" element={<Search />}></Route>
         <Route
           path="/"
           element={<MovieList type="popular" title="인기작품" emoji={Fire} />}
