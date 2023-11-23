@@ -50,12 +50,14 @@ export default function SingleMovie() {
           </div>
           {/* 상세내용 */}
           <div className="detail_content">
-            <p>
+            <p className="detail_p">
               제목: {details.title} ({details.original_title})
             </p>
-            <p>개봉일: {details.release_date} </p>
-            <p>평점: {details.vote_average?.toFixed(2)}점</p>
-            <p>상영시간: {details.runtime}분</p>
+            <p className="detail_p">개봉일: {details.release_date} </p>
+            <p className="detail_p">
+              평점: {details.vote_average?.toFixed(2)}점
+            </p>
+            <p className="detail_p">상영시간: {details.runtime}분</p>
             <p className="content">줄거리: {details.overview}</p>
           </div>
         </div>

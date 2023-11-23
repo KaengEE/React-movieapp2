@@ -55,12 +55,13 @@ h4 {
   margin-top: 0;
 }
 
-p {
+.detail_p {
   color: #555;
   margin: 5px 0;
 }
 
 .content {
+  color: #555;
   margin-top: 30px;
 }
 
