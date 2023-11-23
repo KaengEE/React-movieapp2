@@ -5,7 +5,14 @@ import React from "react";
 export const Footer = () => {
   return (
     <div className="footer">
-      <div className="footer_text">React + Vite 로 만든 MovieApp 입니다.</div>
+      <div className="footer_text">
+        React + Vite 로 만든 MovieApp ver2 입니다.
+      </div>
+      <div className="footer_text">
+        <a target="_blank" href="https://react-movie-kaenghee.netlify.app/">
+          MovieApp.ver1
+        </a>
+      </div>
       <div className="footer_text">
         <a
           target="_blank"

@@ -20,6 +20,12 @@
   padding-left: 5px;
 }
 
+.footer_text a:hover {
+  color: var(--body_color);
+  padding-left: 5px;
+  font-weight: bold;
+}
+
 .footer_text p {
   color: var(--body_color);
   padding-left: 5px;
